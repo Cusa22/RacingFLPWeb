@@ -1,0 +1,180 @@
+body {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: deepskyblue;
+  padding: 10px;
+  width: 100%;
+}
+
+.logo-lafi {
+  width: 20%;
+}
+
+.logo-lafi img {
+  width: 40%;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  justify-content: end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-left: 1%;
+}
+
+nav a {
+  color: darkblue;
+  text-decoration: wavy;
+  font-weight: lighter;
+  font-size: large;
+}
+
+.titulo {
+  background-color: lightskyblue;
+  color: black;
+  text-align: left;
+}
+
+.parrafo {
+  background-color: aliceblue;
+  color: deepskyblue;
+  font-size: 18px;
+  text-align: initial;
+}
+
+.prod {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  color: cyan;
+  background-color: steelblue;
+  text-align: center;
+  padding: auto;
+  margin: 5px;
+}
+
+.prod-2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkturquoise;
+  background-color: darkcyan;
+  font-size: larger;
+  text-align: center;
+  margin: 5px;
+}
+
+.act-fondo {
+  background-image: url(file:///C:\Users\cusat\Desktop\BocetosProyectoFinal\1erentrega\primer-entrega\Imgs);
+  padding: auto;
+}
+
+.Act1 {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aqua;
+  text-align: center;
+}
+
+.act-general {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: lightskyblue;
+  background-color: steelblue;
+  text-align: center;
+  margin: 15px;
+}
+
+.galeria-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.gallery-item {
+  object-fit: unset;
+  width: 33%;
+  height: 33%;
+}
+
+.asociate-1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+  text-align: center;
+  margin: auto;
+  background-color: skyblue;
+}
+
+.asociate-2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+  color: aqua;
+  background-color: cadetblue;
+  text-align: center;
+  margin: 3px;
+}
+
+.contacto {
+  background-color: aqua;
+}
+
+.FormuMSJ {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: darkturquoise;
+}
+
+.nombre {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: darkturquoise;
+}
+
+.email {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: darkturquoise;
+}
+
+.msj {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: darkturquoise;
+}
+
+.Formu {
+  width: 500px;
+  height: 500px;
+  margin: 200px;
+}
+
+.footer {
+  padding: 30px 0;
+}
+
+.footer a {
+  display: block;
+  margin: 0 auto;
+  text-align: center center center;
+}
+
+.footer img {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.RacingFooter {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small
+}
